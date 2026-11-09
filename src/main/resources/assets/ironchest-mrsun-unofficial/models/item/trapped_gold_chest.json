@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/template_chest",
+  "textures": {
+    "particle": "ironchest-mrsun-unofficial:block/gold_break"
+  }
+}

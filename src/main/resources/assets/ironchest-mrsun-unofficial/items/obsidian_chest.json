@@ -1,0 +1,10 @@
+﻿{
+  "model": {
+    "type": "minecraft:special",
+    "base": "ironchest-mrsun-unofficial:item/obsidian_chest",
+    "model": {
+      "type": "ironchest-mrsun-unofficial:iron_chest",
+      "texture": "ironchest-mrsun-unofficial:model/obsidian_chest"
+    }
+  }
+}

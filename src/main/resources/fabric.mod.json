@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "${id}",
+  "version": "${version}",
+  "name": "${name}",
+  "description": "${description}",
+  "authors": [
+    "${author}"
+  ],
+  "contact": {},
+  "license": "GPL-3.0",
+  "icon": "assets/ironchest-mrsun-unofficial/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.mrsun.ironchests.IronChestsFabric"
+    ],
+    "client": [
+      "com.mrsun.ironchests.client.IronChestsFabricClient"
+    ]
+  },
+  "mixins": [
+    "ironchest-mrsun-unofficial.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader}",
+    "minecraft": "${minecraft}",
+    "${fapi_id}": "*"
+  }
+}

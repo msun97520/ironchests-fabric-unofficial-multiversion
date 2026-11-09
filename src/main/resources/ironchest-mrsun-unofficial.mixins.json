@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.mrsun.ironchests.mixin",
+  "compatibilityLevel": "${java}",
+  "plugin": "com.mrsun.ironchests.mixin.IronChestsMixinPlugin",
+  "mixins": [
+    ${copper_mixins}
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

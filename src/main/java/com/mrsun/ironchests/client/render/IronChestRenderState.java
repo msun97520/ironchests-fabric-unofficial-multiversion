@@ -1,0 +1,23 @@
+package com.mrsun.ironchests.client.render;
+
+//? if >= 1.21.11 {
+/*import com.mrsun.ironchests.common.block.IronChestsTypes;
+import net.minecraft.client.renderer.blockentity.state.BlockEntityRenderState;
+import net.minecraft.client.renderer.item.ItemStackRenderState;
+
+import java.util.Collections;
+import java.util.List;
+
+public class IronChestRenderState extends BlockEntityRenderState {
+  public IronChestsTypes chestType = IronChestsTypes.IRON;
+  public boolean trapped;
+  public float open;
+  public float angle;
+  public List<ItemStackRenderState> items = Collections.emptyList();
+  public float itemRotation;
+}
+*///?} else {
+public class IronChestRenderState {
+}
+//?}
+
